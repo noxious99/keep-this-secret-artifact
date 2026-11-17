@@ -1,0 +1,5 @@
+instr,same_setup,bits,distinct_fingerprints,cross_setup,cross_setup_all,n_clean,batched_identical,disclosing
+none,100.0,6.3219280948873635,80,92.5,92.5,80,92.5,0
+ord,93.75,6.1518075889569035,75,81.25,81.25,80,87.5,0
+emph,91.25,6.112492001110319,73,86.66666666666667,87.5,75,96.25,5
+terse,98.75,6.296928094887362,79,88.75,88.75,80,90.0,0

@@ -1,0 +1,86 @@
+{
+  "model_id": "ibm-granite/granite-3.3-8b-instruct",
+  "history": {
+    "source": "hf_official",
+    "main": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+    "at_window_start": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+    "commits_after_window_start": [],
+    "weights_unchanged": true,
+    "tokenizer_unchanged": true,
+    "status": "verified by history: weights and tokenizer unchanged since the window start"
+  },
+  "verify": {
+    "stored_run": "pilot_v6_granite-33-8b-instruct",
+    "n": 50,
+    "decode_all_ok": true,
+    "abs_dlp_median": 0.0,
+    "abs_dlp_p95": 0.0,
+    "abs_dlp_max": 0.0,
+    "abs_dllr_median": 0.0,
+    "abs_dllr_max": 0.0,
+    "status": "consistent by reproduction",
+    "seconds": 32.4
+  },
+  "throughput": {
+    "sampled_2digit": {
+      "n": 48,
+      "seconds": 30.2,
+      "answers_per_hour": 5728,
+      "mean_new_tokens": 60.7,
+      "truncated": 0
+    },
+    "sampled_4digit": {
+      "n": 48,
+      "seconds": 63.4,
+      "answers_per_hour": 2724,
+      "mean_new_tokens": 107.5,
+      "truncated": 0
+    },
+    "greedy_2digit": {
+      "n": 16,
+      "seconds": 10.1,
+      "answers_per_hour": 5700,
+      "mean_new_tokens": 58.5,
+      "truncated": 0
+    },
+    "4digit_task_check": {
+      "share_with_10plus_numbers": 1.0,
+      "share_stating_value": 0.0
+    },
+    "score_single": {
+      "passes": 32,
+      "seconds": 12.2,
+      "passes_per_hour": 9463
+    },
+    "score_batched_ceiling": {
+      "passes": 80,
+      "seconds": 14.9,
+      "passes_per_hour": 19270,
+      "max_abs_diff_vs_single": 0.11675263813435777
+    }
+  },
+  "lora": {
+    "error": "ImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported"
+  },
+  "projection": {
+    "arm_a_generation_h": 1.94,
+    "arm_b_generation_h": 5.87,
+    "ceiling_scoring_h": 0.66,
+    "decoder_training_h": NaN,
+    "total_h": 8.47
+  },
+  "meta": {
+    "source": "hf_official",
+    "load_from": "ibm-granite/granite-3.3-8b-instruct",
+    "revision_loaded": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+    "gpu": "Tesla T4",
+    "n_gpus": 2,
+    "torch": "2.11.0+cu128",
+    "transformers": "5.21.0",
+    "bitsandbytes": "0.50.2",
+    "peft": "0.20.0",
+    "transformers_of_stored_run": "5.21.0",
+    "seed": 20261031,
+    "elapsed_h": 0.1
+  }
+}

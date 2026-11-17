@@ -1,0 +1,683 @@
+{
+ "criteria": {
+  "fpr_max": 0.07,
+  "cov_lo": 0.92,
+  "cov_hi": 0.98,
+  "false_equiv_max": 0.07
+ },
+ "n_sim": 2000,
+ "kl": {
+  "A baseline (pilot inputs)": {
+   "d0.0": {
+    "reject": 0.044,
+    "reject_rank": 0.0425,
+    "cov95": 0.9555,
+    "cov90": 0.905,
+    "equivalent": 0.761,
+    "crossed": {
+     "reject": 0.0425,
+     "cov95": 0.9575,
+     "cov90": 0.909,
+     "equivalent": 0.757
+    }
+   },
+   "d0.5": {
+    "reject": 0.776,
+    "reject_rank": 0.7425,
+    "cov95": 0.95,
+    "cov90": 0.907,
+    "equivalent": 0.048,
+    "crossed": {
+     "reject": 0.7755,
+     "cov95": 0.95,
+     "cov90": 0.91,
+     "equivalent": 0.047
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "B label effects fully shared (rho 1)": {
+   "d0.0": {
+    "reject": 0.042,
+    "reject_rank": 0.041,
+    "cov95": 0.9585,
+    "cov90": 0.9185,
+    "equivalent": 0.5555,
+    "crossed": {
+     "reject": 0.0405,
+     "cov95": 0.9595,
+     "cov90": 0.919,
+     "equivalent": 0.549
+    }
+   },
+   "d0.5": {
+    "reject": 0.632,
+    "reject_rank": 0.606,
+    "cov95": 0.957,
+    "cov90": 0.903,
+    "equivalent": 0.044,
+    "crossed": {
+     "reject": 0.6265,
+     "cov95": 0.957,
+     "cov90": 0.905,
+     "equivalent": 0.0435
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "C label effects model-specific only (rho 0)": {
+   "d0.0": {
+    "reject": 0.043,
+    "reject_rank": 0.0455,
+    "cov95": 0.956,
+    "cov90": 0.9045,
+    "equivalent": 0.999,
+    "crossed": {
+     "reject": 0.04,
+     "cov95": 0.96,
+     "cov90": 0.911,
+     "equivalent": 0.999
+    }
+   },
+   "d0.5": {
+    "reject": 0.9955,
+    "reject_rank": 0.9925,
+    "cov95": 0.945,
+    "cov90": 0.894,
+    "equivalent": 0.0605,
+    "crossed": {
+     "reject": 0.9945,
+     "cov95": 0.9495,
+     "cov90": 0.8975,
+     "equivalent": 0.058
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "D heavy-tailed label effects (t3)": {
+   "d0.0": {
+    "reject": 0.0425,
+    "reject_rank": 0.04,
+    "cov95": 0.961,
+    "cov90": 0.9015,
+    "equivalent": 0.804,
+    "crossed": {
+     "reject": 0.038,
+     "cov95": 0.962,
+     "cov90": 0.907,
+     "equivalent": 0.7995
+    }
+   },
+   "d0.5": {
+    "reject": 0.8355,
+    "reject_rank": 0.8535,
+    "cov95": 0.9505,
+    "cov90": 0.9005,
+    "equivalent": 0.049,
+    "crossed": {
+     "reject": 0.8245,
+     "cov95": 0.953,
+     "cov90": 0.9015,
+     "equivalent": 0.0475
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "E one outlier label, +4 nats in every model": {
+   "d0.0": {
+    "reject": 0.057,
+    "reject_rank": 0.052,
+    "cov95": 1.0,
+    "cov90": 0.988,
+    "equivalent": 0.0,
+    "crossed": {
+     "reject": 0.0,
+     "cov95": 1.0,
+     "cov90": 0.988,
+     "equivalent": 0.0
+    }
+   },
+   "d0.5": {
+    "reject": 0.424,
+    "reject_rank": 0.5815,
+    "cov95": 0.9995,
+    "cov90": 0.9915,
+    "equivalent": 0.0,
+    "crossed": {
+     "reject": 0.1325,
+     "cov95": 0.9995,
+     "cov90": 0.9915,
+     "equivalent": 0.0
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 0.0,
+    "cov95_alt": 0.0,
+    "false_equiv": 1.0
+   },
+   "pass": false,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 0.0,
+    "cov95_alt": 0.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": false
+  },
+  "F heavier residuals (x2 in every model)": {
+   "d0.0": {
+    "reject": 0.0515,
+    "reject_rank": 0.053,
+    "cov95": 0.948,
+    "cov90": 0.901,
+    "equivalent": 0.574,
+    "crossed": {
+     "reject": 0.0475,
+     "cov95": 0.9525,
+     "cov90": 0.9105,
+     "equivalent": 0.552
+    }
+   },
+   "d0.5": {
+    "reject": 0.6705,
+    "reject_rank": 0.6435,
+    "cov95": 0.9475,
+    "cov90": 0.8995,
+    "equivalent": 0.054,
+    "crossed": {
+     "reject": 0.6535,
+     "cov95": 0.9535,
+     "cov90": 0.907,
+     "equivalent": 0.0515
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "G heterogeneous models (residual x0.5..x3; one model label var 2.24)": {
+   "d0.0": {
+    "reject": 0.054,
+    "reject_rank": 0.059,
+    "cov95": 0.9465,
+    "cov90": 0.8955,
+    "equivalent": 0.285,
+    "crossed": {
+     "reject": 0.0505,
+     "cov95": 0.9495,
+     "cov90": 0.9,
+     "equivalent": 0.275
+    }
+   },
+   "d0.5": {
+    "reject": 0.4845,
+    "reject_rank": 0.4685,
+    "cov95": 0.946,
+    "cov90": 0.8965,
+    "equivalent": 0.0445,
+    "crossed": {
+     "reject": 0.476,
+     "cov95": 0.949,
+     "cov90": 0.901,
+     "equivalent": 0.042
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "H salient labels 4x the label variance of sensitive": {
+   "d0.0": {
+    "reject": 0.0545,
+    "reject_rank": 0.054,
+    "cov95": 0.9455,
+    "cov90": 0.8895,
+    "equivalent": 0.225,
+    "crossed": {
+     "reject": 0.0535,
+     "cov95": 0.9465,
+     "cov90": 0.8895,
+     "equivalent": 0.2215
+    }
+   },
+   "d0.5": {
+    "reject": 0.439,
+    "reject_rank": 0.4075,
+    "cov95": 0.944,
+    "cov90": 0.8935,
+    "equivalent": 0.0425,
+    "crossed": {
+     "reject": 0.433,
+     "cov95": 0.9445,
+     "cov90": 0.894,
+     "equivalent": 0.042
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "I pair x class interaction 0.5, model-specific (pilot max)": {
+   "d0.0": {
+    "reject": 0.064,
+    "reject_rank": 0.056,
+    "cov95": 0.936,
+    "cov90": 0.8805,
+    "equivalent": 0.728,
+    "crossed": {
+     "reject": 0.0425,
+     "cov95": 0.9575,
+     "cov90": 0.904,
+     "equivalent": 0.676
+    }
+   },
+   "d0.5": {
+    "reject": 0.7725,
+    "reject_rank": 0.751,
+    "cov95": 0.9235,
+    "cov90": 0.8635,
+    "equivalent": 0.067,
+    "crossed": {
+     "reject": 0.722,
+     "cov95": 0.9455,
+     "cov90": 0.8895,
+     "equivalent": 0.053
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "J pair x class interaction 0.5, shared across models": {
+   "d0.0": {
+    "reject": 0.1165,
+    "reject_rank": 0.1145,
+    "cov95": 0.8825,
+    "cov90": 0.812,
+    "equivalent": 0.6335,
+    "crossed": {
+     "reject": 0.035,
+     "cov95": 0.965,
+     "cov90": 0.9185,
+     "equivalent": 0.3655
+    }
+   },
+   "d0.5": {
+    "reject": 0.735,
+    "reject_rank": 0.725,
+    "cov95": 0.868,
+    "cov90": 0.7925,
+    "equivalent": 0.101,
+    "crossed": {
+     "reject": 0.539,
+     "cov95": 0.961,
+     "cov90": 0.91,
+     "equivalent": 0.04
+    }
+   },
+   "checks": {
+    "fpr": false,
+    "cov95_null": 0.0,
+    "cov95_alt": 0.0,
+    "false_equiv": 0.0
+   },
+   "pass": false,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "K pair x class interaction 1.0, shared across models": {
+   "d0.0": {
+    "reject": 0.198,
+    "reject_rank": 0.1935,
+    "cov95": 0.803,
+    "cov90": 0.7045,
+    "equivalent": 0.5475,
+    "crossed": {
+     "reject": 0.0395,
+     "cov95": 0.9605,
+     "cov90": 0.911,
+     "equivalent": 0.1405
+    }
+   },
+   "d0.5": {
+    "reject": 0.71,
+    "reject_rank": 0.6865,
+    "cov95": 0.8155,
+    "cov90": 0.731,
+    "equivalent": 0.1265,
+    "crossed": {
+     "reject": 0.411,
+     "cov95": 0.965,
+     "cov90": 0.9175,
+     "equivalent": 0.0185
+    }
+   },
+   "checks": {
+    "fpr": false,
+    "cov95_null": 0.0,
+    "cov95_alt": 0.0,
+    "false_equiv": 0.0
+   },
+   "pass": false,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  },
+  "L combined: D + G + H + I": {
+   "d0.0": {
+    "reject": 0.063,
+    "reject_rank": 0.0645,
+    "cov95": 0.9395,
+    "cov90": 0.8775,
+    "equivalent": 0.055,
+    "crossed": {
+     "reject": 0.0505,
+     "cov95": 0.9495,
+     "cov90": 0.887,
+     "equivalent": 0.0425
+    }
+   },
+   "d0.5": {
+    "reject": 0.3155,
+    "reject_rank": 0.3005,
+    "cov95": 0.932,
+    "cov90": 0.883,
+    "equivalent": 0.0195,
+    "crossed": {
+     "reject": 0.2935,
+     "cov95": 0.9395,
+     "cov90": 0.888,
+     "equivalent": 0.016
+    }
+   },
+   "checks": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass": true,
+   "checks_crossed": {
+    "fpr": true,
+    "cov95_null": 1.0,
+    "cov95_alt": 1.0,
+    "false_equiv": 1.0
+   },
+   "pass_crossed": true
+  }
+ },
+ "greedy": {
+  "g1 baseline (base rate 0.62 in every model)": {
+   "d0.0": {
+    "reject": 0.045,
+    "cov95": 0.951
+   },
+   "d0.2": {
+    "reject": 0.8675,
+    "cov95": 0.944
+   },
+   "pass": true
+  },
+  "g2 heterogeneous base rates (0.45-0.85)": {
+   "d0.0": {
+    "reject": 0.0485,
+    "cov95": 0.9495
+   },
+   "d0.2": {
+    "reject": 0.873,
+    "cov95": 0.9475
+   },
+   "pass": true
+  },
+  "g3 heterogeneous + label var 0.05": {
+   "d0.0": {
+    "reject": 0.0465,
+    "cov95": 0.9495
+   },
+   "d0.2": {
+    "reject": 0.341,
+    "cov95": 0.9355
+   },
+   "pass": true
+  }
+ },
+ "greedy_crossed": {
+  "gc1 baseline (base 0.62, candidate SD 0.2)": {
+   "d0.0": {
+    "rej": 0.0405,
+    "rej_l": 0.0395,
+    "eq": 0.4065,
+    "true_delta": 0.0,
+    "cov": 0.9595,
+    "cov_l": 0.955
+   },
+   "d0.2": {
+    "rej": 0.9745,
+    "rej_l": 0.974,
+    "eq": 0.0005,
+    "true_delta": 0.1871288597151682,
+    "cov": 0.955,
+    "cov_l": 0.9525
+   },
+   "pass_crossed": true,
+   "valid_or_conservative": true,
+   "pass_label_level": true
+  },
+  "gc2 heterogeneous base rates 0.45-0.85": {
+   "d0.0": {
+    "rej": 0.047,
+    "rej_l": 0.047,
+    "eq": 0.5065,
+    "true_delta": 0.0,
+    "cov": 0.953,
+    "cov_l": 0.951
+   },
+   "d0.2": {
+    "rej": 0.981,
+    "rej_l": 0.9805,
+    "eq": 0.0005,
+    "true_delta": 0.17606558790734173,
+    "cov": 0.95,
+    "cov_l": 0.9445
+   },
+   "pass_crossed": true,
+   "valid_or_conservative": true,
+   "pass_label_level": true
+  },
+  "gc3 interaction 0.05 model-specific (pilot max)": {
+   "d0.0": {
+    "rej": 0.0455,
+    "rej_l": 0.0575,
+    "eq": 0.3785,
+    "true_delta": 0.0,
+    "cov": 0.9545,
+    "cov_l": 0.9415
+   },
+   "d0.2": {
+    "rej": 0.9635,
+    "rej_l": 0.97,
+    "eq": 0.0005,
+    "true_delta": 0.1813161009570752,
+    "cov": 0.9535,
+    "cov_l": 0.932
+   },
+   "pass_crossed": true,
+   "valid_or_conservative": true,
+   "pass_label_level": true
+  },
+  "gc4 interaction 0.01 shared across models": {
+   "d0.0": {
+    "rej": 0.0425,
+    "rej_l": 0.055,
+    "eq": 0.3605,
+    "true_delta": 0.0,
+    "cov": 0.9575,
+    "cov_l": 0.944
+   },
+   "d0.2": {
+    "rej": 0.97,
+    "rej_l": 0.976,
+    "eq": 0.0,
+    "true_delta": 0.1876369696757344,
+    "cov": 0.952,
+    "cov_l": 0.928
+   },
+   "pass_crossed": true,
+   "valid_or_conservative": true,
+   "pass_label_level": true
+  },
+  "gc5 interaction 0.05 shared across models (pilot max, all shared)": {
+   "d0.0": {
+    "rej": 0.0395,
+    "rej_l": 0.098,
+    "eq": 0.132,
+    "true_delta": 0.0,
+    "cov": 0.9605,
+    "cov_l": 0.9
+   },
+   "d0.2": {
+    "rej": 0.887,
+    "rej_l": 0.9535,
+    "eq": 0.0005,
+    "true_delta": 0.18096675897570189,
+    "cov": 0.9695,
+    "cov_l": 0.8925
+   },
+   "pass_crossed": true,
+   "valid_or_conservative": true,
+   "pass_label_level": false
+  },
+  "gc6 combined: heterogeneous + label var 0.05 + gc5": {
+   "d0.0": {
+    "rej": 0.0405,
+    "rej_l": 0.062,
+    "eq": 0.0025,
+    "true_delta": 0.0,
+    "cov": 0.9595,
+    "cov_l": 0.9375
+   },
+   "d0.2": {
+    "rej": 0.523,
+    "rej_l": 0.566,
+    "eq": 0.0,
+    "true_delta": 0.1618421293437801,
+    "cov": 0.9415,
+    "cov_l": 0.9225
+   },
+   "pass_crossed": true,
+   "valid_or_conservative": true,
+   "pass_label_level": true
+  }
+ },
+ "greedy_crossed_valid_or_conservative": true,
+ "all_pass_label_level": false,
+ "all_pass_crossed": false,
+ "all_pass_greedy": true,
+ "crossed_valid_or_conservative": true
+}

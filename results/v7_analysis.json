@@ -1,0 +1,5030 @@
+{
+ "models": [
+  "phi-4",
+  "falcon3-10b-instruct",
+  "granite-33-8b-instruct",
+  "olmo-2-0325-32b-instruct",
+  "llama-31-8b-instruct"
+ ],
+ "n_models": 5,
+ "dropped_columns": {
+  "P1": [],
+  "P2": [],
+  "P3": []
+ },
+ "missing_flag": {},
+ "missing_cells_by_class": {
+  "sensitive": 0,
+  "salient": 0,
+  "neutral": 0
+ },
+ "including_disclosing": {
+  "P1": {
+   "est": -1.1187918568874191,
+   "se": 0.6440893082755457,
+   "lo": -2.500226031106996,
+   "hi": 0.2626423173321579,
+   "p": 0.10432470045636683,
+   "s2_w": 1.6594041481394834,
+   "sigma2_g": 0.0,
+   "df": 14
+  },
+  "P2": {
+   "est": -0.04237061896436911,
+   "se": 0.026745642430088135,
+   "lo": -0.09973431680823172,
+   "hi": 0.014993078879493506,
+   "p": 0.13546912697292285,
+   "s2_w": 0.002861317555992523,
+   "sigma2_g": 0.0,
+   "df": 14
+  },
+  "E1": {
+   "est": 1.6986040355280263,
+   "se": 0.6506762139201375,
+   "lo": 0.3030423537673581,
+   "hi": 3.0941657172886945,
+   "p": 0.020552006023976402,
+   "s2_w": 1.6935181414457785,
+   "sigma2_g": 0.0,
+   "df": 14
+  },
+  "P3": {
+   "est": 0.5798121786406072,
+   "se": 0.2837573563543392,
+   "lo": -0.028786821866927936,
+   "hi": 1.1884111791481424,
+   "p": 0.06031258764291284,
+   "s2_w": 0.3220729491408138,
+   "sigma2_g": 0.0,
+   "df": 14
+  },
+  "B1": {
+   "phi-4": {
+    "est": 1.1016552486609719,
+    "se": 0.25088017218412767,
+    "lo": 0.5969494421866628,
+    "hi": 1.606361055135281,
+    "df": 47,
+    "p": 0.00014999250037498125
+   },
+   "falcon3-10b-instruct": {
+    "est": 4.885838711633202,
+    "se": 0.9860477572800026,
+    "lo": 2.9021664898406465,
+    "hi": 6.869510933425757,
+    "df": 47,
+    "p": 9.99950002499875e-05
+   },
+   "granite-33-8b-instruct": {
+    "est": 1.5132506562666668,
+    "se": 0.5340623130123366,
+    "lo": 0.43885586432352186,
+    "hi": 2.5876454482098117,
+    "df": 47,
+    "p": 0.004749762511874406
+   },
+   "olmo-2-0325-32b-instruct": {
+    "est": 0.5816984959091407,
+    "se": 0.20043931794975542,
+    "lo": 0.17846659944525595,
+    "hi": 0.9849303923730255,
+    "df": 47,
+    "p": 0.0058997050147492625
+   },
+   "llama-31-8b-instruct": {
+    "est": -1.1377740205212135,
+    "se": 0.4366884797384692,
+    "lo": -2.016277927090152,
+    "hi": -0.25927011395227517,
+    "df": 47,
+    "p": 0.010299485025748713
+   }
+  }
+ },
+ "confirmatory": {
+  "B1": {
+   "per_model": {
+    "phi-4": {
+     "est": 1.1016552486609719,
+     "se": 0.25088017218412767,
+     "lo": 0.5969494421866628,
+     "hi": 1.606361055135281,
+     "df": 47,
+     "p": 9.99950002499875e-05,
+     "n_pairs": 48,
+     "rejected": true,
+     "equivalent": false,
+     "significant": true,
+     "outcome": "effect",
+     "dropped_pairs": [],
+     "diagnostics": {
+      "skewness": -0.012081289548987293,
+      "p_paired_t": 6.363127434273825e-05,
+      "p_bootstrap_t": 0.00019998000199980003,
+      "literal_free": {
+       "est": 1.145818483949334,
+       "se": 0.2078654177525638,
+       "lo": 0.7276472016531389,
+       "hi": 1.563989766245529,
+       "df": 47,
+       "p": 4.999750012499375e-05,
+       "n_pairs": 48
+      }
+     },
+     "borderline": false
+    },
+    "falcon3-10b-instruct": {
+     "est": 4.942268933695647,
+     "se": 1.0063006532279852,
+     "lo": 2.9178531406041817,
+     "hi": 6.966684726787113,
+     "df": 47,
+     "p": 4.999750012499375e-05,
+     "n_pairs": 48,
+     "rejected": true,
+     "equivalent": false,
+     "significant": true,
+     "outcome": "effect",
+     "dropped_pairs": [],
+     "diagnostics": {
+      "skewness": 0.054692745854325646,
+      "p_paired_t": 1.1346069623628248e-05,
+      "p_bootstrap_t": 9.999000099990002e-05,
+      "literal_free": {
+       "est": 4.018333839691641,
+       "se": 0.9770127588034804,
+       "lo": 2.017013926933516,
+       "hi": 6.0196537524497655,
+       "df": 28,
+       "p": 0.000199990000499975,
+       "n_pairs": 29
+      }
+     },
+     "borderline": false
+    },
+    "granite-33-8b-instruct": {
+     "est": 1.7990450494239265,
+     "se": 0.3871375915791725,
+     "lo": 1.020224672056338,
+     "hi": 2.577865426791515,
+     "df": 47,
+     "p": 4.999750012499375e-05,
+     "n_pairs": 48,
+     "rejected": true,
+     "equivalent": false,
+     "significant": true,
+     "outcome": "effect",
+     "dropped_pairs": [],
+     "diagnostics": {
+      "skewness": 0.11022832887438959,
+      "p_paired_t": 2.7441242806662573e-05,
+      "p_bootstrap_t": 9.999000099990002e-05,
+      "literal_free": {
+       "est": 1.449254567572565,
+       "se": 0.3560206955404846,
+       "lo": 0.7330333106275221,
+       "hi": 2.165475824517608,
+       "df": 47,
+       "p": 0.0002999850007499625,
+       "n_pairs": 48
+      }
+     },
+     "borderline": false
+    },
+    "olmo-2-0325-32b-instruct": {
+     "est": 0.5816984959091407,
+     "se": 0.20043931794975542,
+     "lo": 0.17846659944525595,
+     "hi": 0.9849303923730255,
+     "df": 47,
+     "p": 0.00599970001499925,
+     "n_pairs": 48,
+     "rejected": true,
+     "equivalent": false,
+     "significant": true,
+     "outcome": "effect",
+     "dropped_pairs": [],
+     "diagnostics": {
+      "skewness": -0.09571593026758389,
+      "p_paired_t": 0.005625968123456274,
+      "p_bootstrap_t": 0.006099390060993901,
+      "literal_free": {
+       "est": 0.5816984959091407,
+       "se": 0.20043931794975542,
+       "lo": 0.17846659944525595,
+       "hi": 0.9849303923730255,
+       "df": 47,
+       "p": 0.005549722513874306,
+       "n_pairs": 48
+      }
+     },
+     "borderline": true
+    },
+    "llama-31-8b-instruct": {
+     "est": -1.1377740205212135,
+     "se": 0.4366884797384692,
+     "lo": -2.016277927090152,
+     "hi": -0.25927011395227517,
+     "df": 47,
+     "p": 0.01184940752962352,
+     "n_pairs": 48,
+     "rejected": true,
+     "equivalent": false,
+     "significant": true,
+     "outcome": "effect",
+     "dropped_pairs": [],
+     "diagnostics": {
+      "skewness": -0.6715153602974965,
+      "p_paired_t": 0.012249034147809397,
+      "p_bootstrap_t": 0.0173982601739826,
+      "literal_free": {
+       "est": -0.010996245490764759,
+       "se": 0.2478213292799825,
+       "lo": -0.5095484537696701,
+       "hi": 0.48755596278814056,
+       "df": 47,
+       "p": 0.967951602419879,
+       "n_pairs": 48
+      }
+     },
+     "borderline": true
+    }
+   },
+   "n_secret_higher": 4,
+   "n_reference_higher": 1,
+   "most_models_confirmed": true
+  },
+  "P1": {
+   "est": -1.1010518944907428,
+   "se": 0.6271557046391506,
+   "lo": -2.4461671010525032,
+   "hi": 0.2440633120710174,
+   "p": 0.1009970203639433,
+   "s2_w": 1.5732971114457182,
+   "sigma2_g": 0.0,
+   "df": 14,
+   "equivalent": false,
+   "significant": false,
+   "rejected": false,
+   "outcome": "insufficient evidence",
+   "ci90": [
+    -2.2056675937807224,
+    0.0035638047992370137
+   ],
+   "flag_high_label_variance": true
+  },
+  "P2": {
+   "est": -0.04237061896436911,
+   "se": 0.026745642430088135,
+   "lo": -0.09973431680823172,
+   "hi": 0.014993078879493506,
+   "p": 0.13546912697292285,
+   "s2_w": 0.002861317555992523,
+   "sigma2_g": 0.0,
+   "df": 14,
+   "equivalent": true,
+   "significant": false,
+   "rejected": false,
+   "outcome": "equivalence",
+   "ci90": [
+    -0.08947799006429433,
+    0.004736752135556112
+   ],
+   "flag_high_label_variance": false
+  },
+  "P3": {
+   "est": 0.534143953655815,
+   "se": 0.262795764830351,
+   "lo": -0.029496904393499612,
+   "hi": 1.0977848117051296,
+   "p": 0.061518146039184346,
+   "s2_w": 0.2713467714786213,
+   "sigma2_g": 0.02939810743473148,
+   "df": 14,
+   "equivalent": false,
+   "significant": false,
+   "rejected": false,
+   "outcome": "insufficient evidence",
+   "ci90": [
+    0.07127910942140314,
+    0.9970087978902269
+   ],
+   "flag_high_label_variance": true
+  },
+  "rejected": [
+   "B|falcon3-10b-instruct",
+   "B|granite-33-8b-instruct",
+   "B|llama-31-8b-instruct",
+   "B|olmo-2-0325-32b-instruct",
+   "B|phi-4"
+  ],
+  "descriptive_only": false,
+  "B2": {
+   "est": 1.4573787414336945,
+   "se": 0.22324625357068512,
+   "lo": 1.0082652085871588,
+   "hi": 1.9064922742802302,
+   "df": 47,
+   "p": 4.999750012499375e-05,
+   "n_pairs": 48,
+   "equivalent": false,
+   "significant": true,
+   "outcome": "effect"
+  },
+  "B3": {
+   "per_model": {
+    "phi-4": {
+     "est": 0.1416220238095238,
+     "p": 0.023998800059997,
+     "n": 80,
+     "holm_rejected": false
+    },
+    "falcon3-10b-instruct": {
+     "est": 0.18125,
+     "p": 0.00024998750062496874,
+     "n": 80,
+     "holm_rejected": true
+    },
+    "granite-33-8b-instruct": {
+     "est": -0.000520833333333326,
+     "p": 0.9970001499925004,
+     "n": 80,
+     "holm_rejected": false
+    },
+    "olmo-2-0325-32b-instruct": {
+     "est": 0.19375,
+     "p": 0.0022498875056247186,
+     "n": 80,
+     "holm_rejected": true
+    },
+    "llama-31-8b-instruct": {
+     "est": -0.0375,
+     "p": 0.5923703814809259,
+     "n": 80,
+     "holm_rejected": false
+    }
+   },
+   "n_secret_higher": 2
+  }
+ },
+ "E1": {
+  "est": 1.6351958481465578,
+  "se": 0.6440917769812329,
+  "lo": 0.25375637907988646,
+  "hi": 3.016635317213229,
+  "p": 0.023626535694421972,
+  "s2_w": 1.65684459166501,
+  "sigma2_g": 0.015433662206153442,
+  "df": 14,
+  "p_tost": 0.9501016776911032,
+  "ci90": [
+   0.5007504729802517,
+   2.769641223312864
+  ],
+  "flag_high_label_variance": true,
+  "equivalent": false,
+  "significant": true,
+  "outcome": "effect"
+ },
+ "E1g": {
+  "est": 0.049633718711843744,
+  "se": 0.0305916076780017,
+  "lo": -0.015978754197938386,
+  "hi": 0.11524619162162587,
+  "p": 0.12700012912895015,
+  "s2_w": 0.00374338584129909,
+  "sigma2_g": 0.0,
+  "df": 14,
+  "p_tost": 0.06096730572944827,
+  "ci90": [
+   -0.00424758996106963,
+   0.10351502738475712
+  ],
+  "flag_high_label_variance": false,
+  "equivalent": false,
+  "significant": false,
+  "outcome": "insufficient evidence"
+ },
+ "S2": {
+  "sensitive-neutral|kl": {
+   "est": 0.534143953655815,
+   "se": 0.262795764830351,
+   "lo": -0.029496904393499612,
+   "hi": 1.0977848117051296,
+   "p": 0.061518146039184346,
+   "s2_w": 0.2713467714786213,
+   "sigma2_g": 0.02939810743473148,
+   "df": 14,
+   "equivalent": false,
+   "significant": false,
+   "outcome": "insufficient evidence",
+   "ci90": [
+    0.07127910942140314,
+    0.9970087978902269
+   ],
+   "flag_high_label_variance": true
+  },
+  "sensitive-neutral|greedy": {
+   "est": 0.007263099747474633,
+   "se": 0.02578817234153326,
+   "lo": -0.04804702899637601,
+   "hi": 0.06257322849132527,
+   "p": 0.7823362697763862,
+   "s2_w": 0.002611633730019234,
+   "sigma2_g": 0.00048485600847250534,
+   "df": 14,
+   "equivalent": true,
+   "significant": false,
+   "outcome": "equivalence",
+   "ci90": [
+    -0.038157869580777604,
+    0.05268406907572687
+   ],
+   "flag_high_label_variance": false
+  },
+  "salient-neutral|kl": {
+   "est": 1.6351958481465578,
+   "se": 0.6440917769812329,
+   "lo": 0.25375637907988646,
+   "hi": 3.016635317213229,
+   "p": 0.023626535694421972,
+   "s2_w": 1.65684459166501,
+   "sigma2_g": 0.015433662206153442,
+   "df": 14,
+   "equivalent": false,
+   "significant": true,
+   "outcome": "effect",
+   "ci90": [
+    0.5007504729802517,
+    2.769641223312864
+   ],
+   "flag_high_label_variance": true
+  },
+  "salient-neutral|greedy": {
+   "est": 0.049633718711843744,
+   "se": 0.0305916076780017,
+   "lo": -0.015978754197938386,
+   "hi": 0.11524619162162587,
+   "p": 0.12700012912895015,
+   "s2_w": 0.00374338584129909,
+   "sigma2_g": 0.0,
+   "df": 14,
+   "equivalent": false,
+   "significant": false,
+   "outcome": "insufficient evidence",
+   "ci90": [
+    -0.00424758996106963,
+    0.10351502738475712
+   ],
+   "flag_high_label_variance": false
+  }
+ },
+ "gate3": {
+  "family_P": "Insufficient evidence on label class; L2 not claimed",
+  "family_B": "B1 confirmed: the v6 'secret' result replicates with fresh 4-digit values",
+  "P1_P2_sign_disagree": false
+ },
+ "S1": {
+  "kl": {
+   "phi-4": {
+    "est": -1.5879809684065793,
+    "se": 0.478283688793505,
+    "lo": -2.6137974571791105,
+    "hi": -0.5621644796340479,
+    "p": 0.005055323430682657,
+    "s2_w": 0.8571310396674671,
+    "sigma2_g": 0.34734064917733387,
+    "df": 14,
+    "holm_rejected": true
+   },
+   "falcon3-10b-instruct": {
+    "est": -1.0459641354607605,
+    "se": 1.6560525782559656,
+    "lo": -4.597843659796113,
+    "hi": 2.505915388874592,
+    "p": 0.537824852468583,
+    "s2_w": 10.970040567792925,
+    "sigma2_g": 0.0,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "granite-33-8b-instruct": {
+    "est": -2.5389565108888217,
+    "se": 1.0183988021149195,
+    "lo": -4.7232047046563395,
+    "hi": -0.35470831712130435,
+    "p": 0.025808983754442922,
+    "s2_w": 4.148544480596413,
+    "sigma2_g": 0.0,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "olmo-2-0325-32b-instruct": {
+    "est": 0.11797496568481802,
+    "se": 0.16616580950291623,
+    "lo": -0.23841525052412244,
+    "hi": 0.4743651818937585,
+    "p": 0.4893723019268501,
+    "s2_w": 0.10549215965927668,
+    "sigma2_g": 0.029712871990566686,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "llama-31-8b-instruct": {
+    "est": -0.45033282338237113,
+    "se": 0.3357261861456897,
+    "lo": -1.1703938782130612,
+    "hi": 0.2697282314483188,
+    "p": 0.20115600822252777,
+    "s2_w": 0.4243937110507573,
+    "sigma2_g": 0.1587274632297832,
+    "df": 14,
+    "holm_rejected": false
+   }
+  },
+  "greedy": {
+   "phi-4": {
+    "est": -0.22688244047619044,
+    "se": 0.08329824293312399,
+    "lo": -0.40553940304609803,
+    "hi": -0.048225477906282815,
+    "p": 0.016472375066914135,
+    "s2_w": 0.02657035878153344,
+    "sigma2_g": 0.011840303214495258,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "falcon3-10b-instruct": {
+    "est": 0.09843749999999996,
+    "se": 0.07081664500540415,
+    "lo": -0.05344909749059171,
+    "hi": 0.2503240974905916,
+    "p": 0.18622563944809067,
+    "s2_w": 0.020059988839285725,
+    "sigma2_g": 0.0,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "granite-33-8b-instruct": {
+    "est": -0.03184565434565434,
+    "se": 0.07205144385632208,
+    "lo": -0.18638063197395097,
+    "hi": 0.12268932328264229,
+    "p": 0.6652509084209791,
+    "s2_w": 0.02076564224712293,
+    "sigma2_g": 0.0,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "olmo-2-0325-32b-instruct": {
+    "est": 0.0,
+    "se": 0.02635819539129556,
+    "lo": -0.05653270659278713,
+    "hi": 0.05653270659278713,
+    "p": 1.0,
+    "s2_w": 0.0027790178571428575,
+    "sigma2_g": 0.0,
+    "df": 14,
+    "holm_rejected": false
+   },
+   "llama-31-8b-instruct": {
+    "est": -0.05156250000000018,
+    "se": 0.03614097715212018,
+    "lo": -0.12907718668420903,
+    "hi": 0.025952186684208692,
+    "p": 0.17558511274201855,
+    "s2_w": 0.004094587053571427,
+    "sigma2_g": 0.011300938644688646,
+    "df": 14,
+    "holm_rejected": false
+   }
+  }
+ },
+ "S3": {
+  "sensitive-salient": {
+   "est": 0.7150096424266432,
+   "se": 0.5689708897212601,
+   "lo": -0.5053115476602643,
+   "hi": 1.9353308325135508,
+   "p": 0.2294361812187079,
+   "s2_w": 1.293440400328951,
+   "sigma2_g": 0.008826558431150267,
+   "df": 14
+  },
+  "sensitive-neutral": {
+   "est": -0.05606126175361226,
+   "se": 0.22804324627201258,
+   "lo": -0.5451653806273862,
+   "hi": 0.4330428571201617,
+   "p": 0.8093765767530013,
+   "s2_w": 0.1850919719387679,
+   "sigma2_g": 0.1318067712684738,
+   "df": 14
+  }
+ },
+ "S4": {
+  "per_model": {
+   "phi-4": {
+    "est": -0.5137607819661952,
+    "p": 0.0014499275036248187,
+    "n_labels": 24,
+    "holm_rejected": true
+   },
+   "falcon3-10b-instruct": {
+    "est": -7.2629757226501654,
+    "p": 4.999750012499375e-05,
+    "n_labels": 24,
+    "holm_rejected": true
+   },
+   "granite-33-8b-instruct": {
+    "est": -1.3177265337298698,
+    "p": 4.999750012499375e-05,
+    "n_labels": 24,
+    "holm_rejected": true
+   },
+   "olmo-2-0325-32b-instruct": {
+    "est": -0.10042010793953295,
+    "p": 0.0704464776761162,
+    "n_labels": 24,
+    "holm_rejected": false
+   },
+   "llama-31-8b-instruct": {
+    "est": -0.5522657249586402,
+    "p": 4.999750012499375e-05,
+    "n_labels": 24,
+    "holm_rejected": true
+   }
+  },
+  "reversal": false
+ },
+ "S6": {
+  "num_nat_tok": {
+   "sensitive_vs_salient": -1.1731938097266008,
+   "se": 0.6167617390346655,
+   "lo": -2.4689621408419207,
+   "hi": 0.12257452138871927,
+   "df": 18
+  },
+  "num_nat_tok_I": {
+   "sensitive_vs_salient": -1.371737065910894,
+   "se": 0.5997077965125927,
+   "lo": -2.6370099171412544,
+   "hi": -0.10646421468053391,
+   "df": 17
+  }
+ },
+ "S7": [
+  {
+   "model": "phi-4",
+   "cls": "bridge",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.03125,
+   "n": 96
+  },
+  {
+   "model": "phi-4",
+   "cls": "neutral",
+   "cond": "instr",
+   "disclose": 0.0,
+   "exact": 0.0,
+   "n": 384
+  },
+  {
+   "model": "phi-4",
+   "cls": "neutral",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.020833333333333332,
+   "n": 432
+  },
+  {
+   "model": "phi-4",
+   "cls": "salient",
+   "cond": "instr",
+   "disclose": 0.005208333333333333,
+   "exact": 0.0,
+   "n": 384
+  },
+  {
+   "model": "phi-4",
+   "cls": "salient",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.052083333333333336,
+   "n": 384
+  },
+  {
+   "model": "phi-4",
+   "cls": "sensitive",
+   "cond": "instr",
+   "disclose": 0.0,
+   "exact": 0.0026041666666666665,
+   "n": 384
+  },
+  {
+   "model": "phi-4",
+   "cls": "sensitive",
+   "cond": "none",
+   "disclose": 0.0026041666666666665,
+   "exact": 0.020833333333333332,
+   "n": 384
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "bridge",
+   "cond": "none",
+   "disclose": 0.020833333333333332,
+   "exact": 0.53125,
+   "n": 96
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "neutral",
+   "cond": "instr",
+   "disclose": 0.036458333333333336,
+   "exact": 0.059895833333333336,
+   "n": 384
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "neutral",
+   "cond": "none",
+   "disclose": 0.009259259259259259,
+   "exact": 0.3958333333333333,
+   "n": 432
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "salient",
+   "cond": "instr",
+   "disclose": 0.026041666666666668,
+   "exact": 0.13802083333333334,
+   "n": 384
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "salient",
+   "cond": "none",
+   "disclose": 0.013020833333333334,
+   "exact": 0.5286458333333334,
+   "n": 384
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "sensitive",
+   "cond": "instr",
+   "disclose": 0.036458333333333336,
+   "exact": 0.07552083333333333,
+   "n": 384
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "cls": "sensitive",
+   "cond": "none",
+   "disclose": 0.0078125,
+   "exact": 0.46875,
+   "n": 384
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "bridge",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.08333333333333333,
+   "n": 96
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "neutral",
+   "cond": "instr",
+   "disclose": 0.0026041666666666665,
+   "exact": 0.013020833333333334,
+   "n": 384
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "neutral",
+   "cond": "none",
+   "disclose": 0.0023148148148148147,
+   "exact": 0.05092592592592592,
+   "n": 432
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "salient",
+   "cond": "instr",
+   "disclose": 0.0078125,
+   "exact": 0.010416666666666666,
+   "n": 384
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "salient",
+   "cond": "none",
+   "disclose": 0.020833333333333332,
+   "exact": 0.13802083333333334,
+   "n": 384
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "sensitive",
+   "cond": "instr",
+   "disclose": 0.015625,
+   "exact": 0.0234375,
+   "n": 384
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "cls": "sensitive",
+   "cond": "none",
+   "disclose": 0.0078125,
+   "exact": 0.0625,
+   "n": 384
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "bridge",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.0,
+   "n": 96
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "neutral",
+   "cond": "instr",
+   "disclose": 0.0026041666666666665,
+   "exact": 0.0078125,
+   "n": 384
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "neutral",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.004629629629629629,
+   "n": 432
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "salient",
+   "cond": "instr",
+   "disclose": 0.010416666666666666,
+   "exact": 0.0026041666666666665,
+   "n": 384
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "salient",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.010416666666666666,
+   "n": 384
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "sensitive",
+   "cond": "instr",
+   "disclose": 0.0026041666666666665,
+   "exact": 0.0,
+   "n": 384
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "cls": "sensitive",
+   "cond": "none",
+   "disclose": 0.0026041666666666665,
+   "exact": 0.010416666666666666,
+   "n": 384
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "bridge",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.020833333333333332,
+   "n": 96
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "neutral",
+   "cond": "instr",
+   "disclose": 0.0,
+   "exact": 0.0,
+   "n": 384
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "neutral",
+   "cond": "none",
+   "disclose": 0.0023148148148148147,
+   "exact": 0.05092592592592592,
+   "n": 432
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "salient",
+   "cond": "instr",
+   "disclose": 0.0,
+   "exact": 0.0026041666666666665,
+   "n": 384
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "salient",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.028645833333333332,
+   "n": 384
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "sensitive",
+   "cond": "instr",
+   "disclose": 0.0,
+   "exact": 0.0,
+   "n": 384
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "cls": "sensitive",
+   "cond": "none",
+   "disclose": 0.0,
+   "exact": 0.020833333333333332,
+   "n": 384
+  }
+ ],
+ "S8": {
+  "deviation": "D1 (preregistration_v7.md \u00a711)",
+  "frozen_result": {
+   "not_estimable": true,
+   "n_pairs": 0
+  },
+  "pairs_kept_per_model": {
+   "phi-4": 23,
+   "falcon3-10b-instruct": 0,
+   "granite-33-8b-instruct": 14,
+   "olmo-2-0325-32b-instruct": 24,
+   "llama-31-8b-instruct": 24
+  },
+  "included_models": [
+   "phi-4",
+   "granite-33-8b-instruct",
+   "olmo-2-0325-32b-instruct",
+   "llama-31-8b-instruct"
+  ],
+  "excluded_models": [
+   "falcon3-10b-instruct"
+  ],
+  "n_pairs": 14,
+  "result": {
+   "est": -0.844894102444028,
+   "se": 0.20198534398079965,
+   "lo": -1.2781095793685455,
+   "hi": -0.41167862551951034,
+   "p": 0.0009205731148824491,
+   "s2_w": 0.16319231673216783,
+   "sigma2_g": 0.0,
+   "df": 14
+  },
+  "note": null
+ },
+ "robustness": {
+  "bootstrap|P1": {
+   "lo": -2.326959645324738,
+   "hi": 0.05118704201737191
+  },
+  "bootstrap|P2": {
+   "lo": -0.10150448676884809,
+   "hi": 0.017705483987009763
+  },
+  "bootstrap|P3": {
+   "lo": -0.01417977219645033,
+   "hi": 1.1131769290208944
+  },
+  "bootstrap|E1": {
+   "lo": 0.44257302614246746,
+   "hi": 2.898461827736083
+  },
+  "leave_one_model_out": {
+   "phi-4": {
+    "P1": -0.979319626011784,
+    "P2": 0.003757336413586332
+   },
+   "falcon3-10b-instruct": {
+    "P1": -1.1148238342482393,
+    "P2": -0.07757264870546121
+   },
+   "granite-33-8b-instruct": {
+    "P1": -0.7415757403912226,
+    "P2": -0.0450018601190475
+   },
+   "olmo-2-0325-32b-instruct": {
+    "P1": -1.4058086095346334,
+    "P2": -0.052963273705461056
+   },
+   "llama-31-8b-instruct": {
+    "P1": -1.263731662267837,
+    "P2": -0.04007264870546112
+   }
+  },
+  "leave_one_label_out": {
+   "access code": {
+    "P1": -1.0807422813937295,
+    "P2": -0.0412918272203987
+   },
+   "account number": {
+    "P1": -1.004895393539711,
+    "P2": -0.029861555111555305
+   },
+   "alarm code": {
+    "P1": -1.0753492046353155,
+    "P2": -0.043053731982303556
+   },
+   "card number": {
+    "P1": -1.1000826431533586,
+    "P2": -0.04380481423338567
+   },
+   "gate code": {
+    "P1": -1.053365660013815,
+    "P2": -0.03911325579182723
+   },
+   "locker code": {
+    "P1": -1.1391568426915182,
+    "P2": -0.04756563674420833
+   },
+   "private number": {
+    "P1": -1.2010841943172412,
+    "P2": -0.04574420817277969
+   },
+   "secret code": {
+    "P1": -1.1537389361812553,
+    "P2": -0.04852992245849397
+   },
+   "best score": {
+    "P1": -1.4374718542123937,
+    "P2": -0.05584759436991571
+   },
+   "important number": {
+    "P1": -0.6471791154469604,
+    "P2": -0.040192832465153705
+   },
+   "jackpot number": {
+    "P1": -1.1834483429526088,
+    "P2": -0.03614521341753474
+   },
+   "lucky number": {
+    "P1": -1.0245471917002713,
+    "P2": -0.04341051953998365
+   },
+   "magic number": {
+    "P1": -0.937810809671102,
+    "P2": -0.03715711817943956
+   },
+   "special number": {
+    "P1": -1.0602791916728638,
+    "P2": -0.03840711817943954
+   },
+   "top number": {
+    "P1": -1.3387146827309637,
+    "P2": -0.03172344471005173
+   },
+   "winning number": {
+    "P1": -1.178963967538782,
+    "P2": -0.05608111085343226
+   }
+  },
+  "usable_rule": {
+   "excluded_models": [],
+   "P1": {
+    "est": -1.1441873191906726,
+    "se": 0.6380417116885374,
+    "lo": -2.512650688756537,
+    "hi": 0.22427605037519194,
+    "p": 0.09455150317437497,
+    "s2_w": 1.6283889034177546,
+    "sigma2_g": 0.0,
+    "df": 14
+   },
+   "P3": {
+    "est": 0.5257057762076953,
+    "se": 0.2673153421074254,
+    "lo": -0.04762861102050431,
+    "hi": 1.099040163435895,
+    "p": 0.06937386306894804,
+    "s2_w": 0.2779572839886652,
+    "sigma2_g": 0.04723610709224574,
+    "df": 14
+   }
+  }
+ },
+ "label_level": {
+  "P1": {
+   "perm_p": 0.0937062937062937,
+   "rank_p": 0.1303807303807304
+  },
+  "P2": {
+   "perm_p": 0.13473193473193473,
+   "rank_p": 0.1048951048951049
+  },
+  "P3": {
+   "perm_p": 0.06076146076146076,
+   "rank_p": 0.06495726495726496
+  },
+  "E1": {
+   "perm_p": 0.017404817404817405,
+   "rank_p": 0.020668220668220667
+  }
+ },
+ "per_label": [
+  {
+   "model": "phi-4",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.3757702889387951,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.3666853252527685,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.4179739280838232,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.8368587243240103,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.7288162822713374,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.7339597733130342,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.18315797998687477,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.2984528851657127,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.40903068781616686,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.6342853724926707,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.8983202429929897,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.0690633062398749,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.7508424692358315,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.8810873050853455,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.7537449723628459,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.071853138876845,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.1760235228187932,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.790594839324946,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.9898030470095711,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.504530746969846,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.8789211731884764,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.5337271181416251,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.2813700199076186,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 2.68284473963722,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.8155173613348458,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 4.443588095162311,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.2891595239374829,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5377968872591218,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.5808816218894504,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.3915435188006882,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.3423923134247004,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5176769202723251,
+   "n_pairs": 48
+  },
+  {
+   "model": "phi-4",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.31290526192870544,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5240319043609502,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "secret",
+   "cls": "bridge",
+   "cond": "none",
+   "kl": 1.619332168933297,
+   "n_pairs": 48
+  },
+  {
+   "model": "phi-4",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.9304647350088744,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.9562791335118384,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.5564599303548106,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.0065692422919015,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.4737818978025829,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.19561295273560844,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.2597917564495497,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.3532139023075593,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.3547383024722641,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 2.0068941350885567,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.1947819371040261,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.1449751506067448,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.6406834902206018,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.5945106147458699,
+   "n_pairs": 24
+  },
+  {
+   "model": "phi-4",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.16174242424242422,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.37499999999999994,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.23583333333333334,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.2741071428571428,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.3611111111111111,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.29833333333333334,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.225,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.5125,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.44499999999999995,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.5458333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.425,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.5,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.375,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.5375,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.575,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.6291666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.2958333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.4625,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.525,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.3,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.7666666666666666,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.42559523809523814,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.275,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.445,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.5384615384615384,
+   "n_cands": 39
+  },
+  {
+   "model": "phi-4",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.5208333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.35,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.4791666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.278968253968254,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.5625,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.375,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.7,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.5208333333333334,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.675,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.24875000000000003,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.47847222222222224,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.17222222222222222,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.19083333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.5583333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.875,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.025,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.38125,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "phi-4",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.4333333333333334,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.850432970844036,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 9.01910484137188,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.8096660865637285,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 6.237800699375946,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.542037871656824,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 8.081817610323649,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.0857320240013857,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 7.210768654418604,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.1792858878519799,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.667318562986409,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.6783278793891736,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 8.304546081209425,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 2.4671640650718394,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 9.386720198091444,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.558586322980011,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 8.069249562559571,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 3.284355476725768,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 17.42027344571945,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.334365570119205,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 10.628997711949653,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.6672370108403964,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 10.503487372366495,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.946861732794408,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 11.707383023472582,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 3.175938748500922,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 10.943426587859056,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.9589245243996677,
+   "n_pairs": 23
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 7.063989744908443,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.9622741615904934,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 12.75162651701998,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.4598399111112072,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 6.0624194050735944,
+   "n_pairs": 48
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.1702378919336218,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 10.927241587979154,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "secret",
+   "cls": "bridge",
+   "cond": "none",
+   "kl": 11.004688338769242,
+   "n_pairs": 48
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.1806048836959637,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 10.158075080616532,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.2643282207543565,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 12.477773035521814,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.6590701608198672,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 10.360589013628925,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.7301503355878962,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 7.612134313355683,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.6034377533776272,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 5.494618689425454,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.6473802403984168,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 4.490878210800329,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 3.037658921065926,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 9.153629791595144,
+   "n_pairs": 24
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.29708333333333337,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.9,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.16250000000000003,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.4,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.975,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.19807692307692307,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.025,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.4375,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.221875,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.95,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.04999999999999999,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.346875,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.25,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.37499999999999994,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.9,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.4,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.975,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.3733333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.925,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.37916666666666665,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.925,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.125,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.95,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.3238095238095238,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.95,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.025,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.04999999999999999,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.4324519230769231,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.22380952380952382,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.875,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.15,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.975,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.175,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.9,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.19999999999999998,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.925,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.17410714285714288,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.7249999999999999,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "falcon3-10b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.1509452403879916,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 2.340227362691247,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.9488665255337108,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 3.1689037549678183,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.4239615875886353,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 2.6464325454467996,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.5047270034529987,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 1.7104384439891966,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.8424285926741046,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.037622384232091,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.76107488107994,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 4.488588683331724,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.8947972674620093,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 1.9142483738199332,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.9004278443767693,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.6792995273138587,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 3.057095056680725,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 10.53963271934994,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.9011589572942498,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.617798758739862,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.958110930569383,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 2.849002417681685,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.707661549678799,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 5.902443531344944,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.6248612674893956,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 8.472481734213131,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.2957306686894636,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 2.23820788426625,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.676548804949144,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 2.8451081421624704,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.7965199161347005,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 1.390507518700917,
+   "n_pairs": 48
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 2.204518959242968,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 2.0256235834049776,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "secret",
+   "cls": "bridge",
+   "cond": "none",
+   "kl": 3.1895525681248436,
+   "n_pairs": 48
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 2.4614884901512366,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 2.93633061689354,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 2.14767050257131,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.736349310195435,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 3.320206747936426,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 4.418419802270546,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 1.155304199604089,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 2.4988015617040396,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 3.66024753606091,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 2.9924719493214815,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.9263984916830429,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 1.7117109279364235,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 3.2429564349821143,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 4.966744750202835,
+   "n_pairs": 24
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.6125,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.5241666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.199,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.475,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.5708333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.475,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.3468452380952381,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.5416666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.6875,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.61875,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.65,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.5371212121212121,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.5,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.534375,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.49722222222222234,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.3604166666666666,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.55,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.575,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.6375,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.7916666666666666,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.65,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.71875,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.4125,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.22071428571428572,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.5041666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.56875,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.346875,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.4375,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.41500000000000004,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.4966666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.25625,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.6375,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.2235294117647059,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.6458333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.575,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.37750000000000006,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.5708333333333334,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.5625,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.5625,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.345,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.4125,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.44000000000000006,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.175,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.5214285714285715,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.19166666666666665,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.7,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "granite-33-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.3605769230769231,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.0240901141388743,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.8754890727796152,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.6420584904334525,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.6291592976007152,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.1393153224303916,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.1167330729268012,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.19327563775516884,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.3095661563495966,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.14071816158900674,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.6016492541749253,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.5259968452094886,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.3023358886400729,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.4545666383992592,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.4239754685780876,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.7882106201562588,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.2827727355553786,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.833741782689259,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.0871711486818232,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.030837229217127,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.7377682359910013,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.8664114179508431,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.2156178806309867,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.7980321369848676,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.8426566602222891,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.6950908342963563,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.6187021304060162,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.3773326873095139,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5287347499598619,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.6420607222303497,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.3427461402127345,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.4307481449907205,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5327361436347514,
+   "n_pairs": 48
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.09245780057974191,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.3251888560460685,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "secret",
+   "cls": "bridge",
+   "cond": "none",
+   "kl": 1.114434639543892,
+   "n_pairs": 48
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.6748769116264555,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.2810363872519275,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.6122211656256079,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.0355506352676709,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.3939573803067257,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.6878982290030985,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.180345410804757,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.3193367494247307,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.43831621896583783,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.6455264453441695,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.6568965838289434,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.6163058935193639,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.8406855892524826,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.5330662400317921,
+   "n_pairs": 24
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.8125,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.6464285714285714,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.6041666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.6475,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.875,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.5125,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.7625,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.675,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.7416666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.5416666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.825,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.51875,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.7875,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.65,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.71875,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.875,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.7449999999999999,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.74375,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.409375,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.6708333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.9,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.575,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.6166666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.7625,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.675,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.825,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.5375,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.675,
+   "n_cands": 40
+  },
+  {
+   "model": "olmo-2-0325-32b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.825,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.5514002155590892,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.5477984078676812,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.5466602632966348,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.6219414588040498,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.8217854607284872,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.38160432140842,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.4608883777331509,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5558539883645999,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.421899144610767,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.6498267766685165,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.6354211798134912,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 0.661683712129116,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.39138070078891,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.9930583155128639,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.7928428914594198,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.0879482973605359,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.9766340258582886,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 3.4132760542686262,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.8691687656870121,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.9924297909967331,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.814865921887313,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.0919798665649978,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.3371756471650116,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.9077375838018564,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 0.7299344701646125,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.600640361859315,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.36993256355857324,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 1.508351332357942,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 0.7578691256990074,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.0302476440902357,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.14838106351869365,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 2.529437774846374,
+   "n_pairs": 48
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.5165407915937976,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.8870010424659327,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "secret",
+   "cls": "bridge",
+   "cond": "none",
+   "kl": 1.3916637543251607,
+   "n_pairs": 48
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "kl": 1.2199255278861092,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "kl": 1.3724667092527814,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.1909985116866721,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.5362033161613293,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.5684124202366169,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 1.599930460467424,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.3771604731620973,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5956010997131594,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.4733636181308754,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 0.9076921332250075,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "kl": 0.1715167960684738,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "kl": 0.5602922742800635,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "kl": 1.3582099775234393,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "kl": 1.390526987555404,
+   "n_pairs": 24
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.6479166666666666,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "access code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.62,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "account number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.7416666666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "alarm code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.7875,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.4630952380952381,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "batch number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.48125,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.521875,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "best score",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.7375,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.7375,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "card number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.65,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.5589285714285713,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "floor number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.6625,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "gate code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.7125,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "important number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.525,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "jackpot number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.775,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "locker code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.7416666666666666,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "lucky number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.6375,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "magic number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.6875,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.2958333333333333,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "platform number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.6125,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "private number",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.7875,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.3567234848484849,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "reference number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.825,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.64375,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "row number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.875,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "instr",
+   "ident": 0.825,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "secret code",
+   "cls": "sensitive",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.65,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "special number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.7041666666666666,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "table number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.75,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.5229166666666667,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "ticket number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.5211904761904762,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.65,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "top number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.8,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "instr",
+   "ident": 0.5380952380952382,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "version number",
+   "cls": "neutral",
+   "cond": "none",
+   "ident": 0.725,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "instr",
+   "ident": 0.625,
+   "n_cands": 40
+  },
+  {
+   "model": "llama-31-8b-instruct",
+   "label": "winning number",
+   "cls": "salient",
+   "cond": "none",
+   "ident": 0.85,
+   "n_cands": 40
+  }
+ ],
+ "run": {
+  "script": "analysis/v7_run.py",
+  "frozen_analysis": "analysis/v7_analyze.py (unchanged since 18ff241)",
+  "deviations": [
+   "D1"
+  ]
+ }
+}

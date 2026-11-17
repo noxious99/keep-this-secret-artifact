@@ -1,0 +1,7 @@
+rung cov<=0.5, n>=6: best largest violation 0.555 (not found) | sizes [6, 6, 6]
+   binding: {'num: sensitive vs salient': -1.055, 'nat: sensitive vs salient': -0.511, 'tok: sensitive vs salient': -0.577, 'num: sensitive vs neutral': -0.77, 'nat: sensitive vs neutral': -1.024, 'tok: sensitive vs neutral': -0.577, 'zipf: sensitive vs neutral': 0.636, 'num: salient vs neutral': 1.049, 'nat: salient vs neutral': -0.621}
+rung cov<=0.75, n>=6: best largest violation 0.325 (not found) | sizes [6, 6, 6]
+   binding: {'num: sensitive vs salient': -1.041, 'nat: sensitive vs salient': -0.778, 'nat: sensitive vs neutral': -1.051, 'num: salient vs neutral': 1.075}
+rung cov<=0.75, n>=5: best largest violation 0.120 (not found) | sizes [5, 5, 5]
+   binding: {'num: sensitive vs salient': -0.867, 'nat: sensitive vs salient': -0.784, 'nat: sensitive vs neutral': -0.87}
+

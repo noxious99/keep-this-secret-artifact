@@ -1,0 +1,86 @@
+{
+  "model_id": "microsoft/phi-4",
+  "history": {
+    "source": "hf_official",
+    "main": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+    "at_window_start": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+    "commits_after_window_start": [],
+    "weights_unchanged": true,
+    "tokenizer_unchanged": true,
+    "status": "verified by history: weights and tokenizer unchanged since the window start"
+  },
+  "verify": {
+    "stored_run": "pilot_v6_phi-4",
+    "n": 50,
+    "decode_all_ok": true,
+    "abs_dlp_median": 0.0,
+    "abs_dlp_p95": 0.0,
+    "abs_dlp_max": 0.0,
+    "abs_dllr_median": 0.0,
+    "abs_dllr_max": 0.0,
+    "status": "consistent by reproduction",
+    "seconds": 54.0
+  },
+  "throughput": {
+    "sampled_2digit": {
+      "n": 48,
+      "seconds": 37.4,
+      "answers_per_hour": 4616,
+      "mean_new_tokens": 49.4,
+      "truncated": 0
+    },
+    "sampled_4digit": {
+      "n": 48,
+      "seconds": 75.0,
+      "answers_per_hour": 2305,
+      "mean_new_tokens": 76.6,
+      "truncated": 0
+    },
+    "greedy_2digit": {
+      "n": 16,
+      "seconds": 15.2,
+      "answers_per_hour": 3788,
+      "mean_new_tokens": 59.4,
+      "truncated": 0
+    },
+    "4digit_task_check": {
+      "share_with_10plus_numbers": 1.0,
+      "share_stating_value": 0.0
+    },
+    "score_single": {
+      "passes": 32,
+      "seconds": 18.6,
+      "passes_per_hour": 6207
+    },
+    "score_batched_ceiling": {
+      "passes": 80,
+      "seconds": 21.3,
+      "passes_per_hour": 13508,
+      "max_abs_diff_vs_single": 0.030899760559833567
+    }
+  },
+  "lora": {
+    "error": "ImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported"
+  },
+  "projection": {
+    "arm_a_generation_h": 2.41,
+    "arm_b_generation_h": 6.94,
+    "ceiling_scoring_h": 0.95,
+    "decoder_training_h": NaN,
+    "total_h": 10.3
+  },
+  "meta": {
+    "source": "hf_official",
+    "load_from": "microsoft/phi-4",
+    "revision_loaded": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+    "gpu": "Tesla T4",
+    "n_gpus": 2,
+    "torch": "2.11.0+cu128",
+    "transformers": "5.21.1",
+    "bitsandbytes": "0.50.2",
+    "peft": "0.20.0",
+    "transformers_of_stored_run": "5.21.1",
+    "seed": 20261031,
+    "elapsed_h": 0.15
+  }
+}

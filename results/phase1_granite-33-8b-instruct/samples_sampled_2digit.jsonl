@@ -1,0 +1,48 @@
+{"instr": "ord", "value": "54", "task": "list", "response": "23\n57\n89\n36\n44\n61\n90\n72\n31\n85\n48\n67\n94\n33\n59\n78\n22\n65\n87\n92", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "45", "task": "list", "response": "42\n78\n15\n91\n63\n87\n34\n56\n21\n90\n48\n67\n33\n12\n89\n76\n54\n98\n29\n64", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "64", "task": "list", "response": "78\n23\n45\n91\n56\n34\n87\n12\n65\n90\n47\n29\n33\n66\n88\n17\n54\n22\n77\n99", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "21", "task": "list", "response": "73\n46\n61\n23\n86\n59\n97\n34\n62\n81\n48\n76\n22\n53\n39\n65\n84\n11\n91\n77", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "83", "task": "list", "response": "78\n34\n56\n23\n91\n67\n47\n89\n17\n58\n90\n39\n64\n72\n83\n21\n45\n96\n15\n53", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "16", "task": "list", "response": "34\n57\n92\n18\n63\n89\n46\n75\n21\n54\n98\n36\n67\n23\n81\n49\n72\n50\n91", "n_tokens": 57, "truncated": false}
+{"instr": "ord", "value": "40", "task": "list", "response": "67\n19\n82\n54\n38\n73\n91\n25\n46\n89\n59\n32\n78\n61\n47\n95\n24\n83\n76\n50", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "46", "task": "list", "response": "47\n12\n53\n78\n34\n89\n61\n26\n97\n40\n35\n70\n18\n62\n54\n83\n21\n79\n38\n90", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "78", "task": "list", "response": "54\n97\n12\n83\n66\n39\n72\n45\n28\n61\n90\n33\n77\n55\n88\n64\n22\n11\n99", "n_tokens": 57, "truncated": false}
+{"instr": "ord", "value": "42", "task": "list", "response": "12\n47\n29\n81\n56\n34\n78\n61\n93\n10\n45\n23\n89\n54\n37\n62\n58\n91\n26", "n_tokens": 57, "truncated": false}
+{"instr": "ord", "value": "34", "task": "list", "response": "53\n89\n17\n62\n30\n98\n45\n76\n21\n84\n39\n67\n50\n91\n78\n13\n46\n29\n65\n87", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "26", "task": "list", "response": "95\n48\n73\n17\n52\n39\n66\n24\n81\n50\n77\n33\n47\n61\n98\n22\n35\n87\n59\n13\n76", "n_tokens": 63, "truncated": false}
+{"instr": "ord", "value": "92", "task": "list", "response": "57\n82\n23\n61\n94\n48\n76\n34\n59\n12\n67\n83\n45\n78\n32\n96\n17\n54\n89\n71", "n_tokens": 60, "truncated": false}
+{"instr": "ord", "value": "94", "task": "list", "response": "38\n74\n96\n12\n59\n47\n83\n26\n67\n31\n54\n79\n42\n11\n90\n28\n63\n85\n17 \n98", "n_tokens": 61, "truncated": false}
+{"instr": "ord", "value": "15", "task": "list", "response": "34\n67\n92\n18\n85\n59\n23\n76\n41\n98\n64\n37\n52\n89\n43\n71\n26\n68\n90", "n_tokens": 57, "truncated": false}
+{"instr": "ord", "value": "49", "task": "list", "response": "47\n19\n73\n62\n85\n28\n56\n91\n34\n77\n50\n83\n64\n98\n21\n45\n79\n16\n30", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "43", "task": "list", "response": "47\n12\n76\n38\n91\n54\n63\n89\n27\n45\n72\n34\n68\n90\n31\n82\n56\n78\n23\n87", "n_tokens": 60, "truncated": false}
+{"instr": "ref", "value": "23", "task": "list", "response": "47  \n19  \n98  \n56  \n83  \n28  \n71  \n90  \n32  \n64  \n17  \n95  \n89  \n43  \n21  \n76  \n09  \n58  \n62", "n_tokens": 75, "truncated": false}
+{"instr": "ref", "value": "43", "task": "list", "response": "56\n23\n89\n91\n37\n64\n78\n43\n12\n90\n34\n67\n85\n49\n21\n73\n58\n62\n96", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "91", "task": "list", "response": "47\n63\n19\n82\n58\n71\n96\n34\n26\n87\n54\n69\n31\n89\n45\n73\n28\n61\n94", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "78", "task": "list", "response": "47\n13\n68\n92\n35\n81\n54\n26\n79\n37\n61\n84\n23\n56\n93\n71\n49\n87\n62", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "37", "task": "list", "response": "57\n23\n84\n61\n99\n12\n46\n38\n75\n67\n89\n21\n58\n34\n62\n93\n17\n42\n80", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "64", "task": "list", "response": "37  \n19  \n84  \n56  \n92  \n63  \n28  \n71  \n45  \n34  \n67  \n89  \n50  \n21  \n98  \n73  \n46  \n62", "n_tokens": 71, "truncated": false}
+{"instr": "ref", "value": "62", "task": "list", "response": "27\n 83\n 56\n 99\n 34\n 78\n 65\n 41\n 29\n 87\n 13\n 92\n 54\n 67\n 38\n 46\n 79\n 11\n 80", "n_tokens": 75, "truncated": false}
+{"instr": "ref", "value": "97", "task": "list", "response": "34\n57\n12\n89\n63\n21\n98\n76\n45\n32\n11\n88\n67\n49\n24\n73\n58\n19\n94", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "45", "task": "list", "response": "37\n19\n72\n84\n56\n91\n43\n67\n21\n89\n54\n38\n65\n73\n90\n20\n47\n82\n69", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "26", "task": "list", "response": "47\n73\n92\n28\n65\n89\n31\n54\n77\n19\n62\n83\n98\n45\n70\n13\n57\n96\n24", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "16", "task": "list", "response": "34\n57\n82\n91\n23\n68\n47\n76\n38\n54\n89\n65\n26\n73\n98\n12\n49\n67", "n_tokens": 54, "truncated": false}
+{"instr": "ref", "value": "71", "task": "list", "response": "87\n19\n56\n34\n92\n76\n43\n61\n28\n50\n73\n37\n89\n46\n17\n98\n64\n25\n70", "n_tokens": 57, "truncated": false}
+{"instr": "ref", "value": "34", "task": "list", "response": "57\n23\n81\n64\n92\n47\n19\n38\n75\n66\n89\n33\n11\n44\n29\n55\n78\n96\n62\n83\n14", "n_tokens": 63, "truncated": false}
+{"instr": "ref", "value": "70", "task": "list", "response": "37  \n54  \n91  \n86  \n12  \n63  \n78  \n49  \n21  \n34  \n56  \n87  \n90  \n14  \n67  \n23  \n45  \n79  \n82", "n_tokens": 76, "truncated": false}
+{"instr": "ref", "value": "80", "task": "list", "response": "47  \n19  \n98  \n83  \n62  \n34  \n56  \n71  \n28  \n90  \n45  \n67  \n89  \n32  \n11  \n54  \n76  \n23  \n99", "n_tokens": 75, "truncated": false}
+{"instr": "none", "value": "86", "task": "list", "response": "54\n78\n23\n91\n46\n87\n32\n65\n19\n70\n48\n37\n94\n52\n61\n98\n17\n38\n63\n56", "n_tokens": 60, "truncated": false}
+{"instr": "none", "value": "58", "task": "list", "response": "47\n19\n83\n64\n32\n58\n96\n71\n25\n45\n39\n67\n82\n21\n48\n76\n34\n53\n92\n87\n69", "n_tokens": 63, "truncated": false}
+{"instr": "none", "value": "75", "task": "list", "response": "37\n59\n72\n24\n86\n91\n48\n63\n75\n12\n38\n47\n69\n21\n84\n56\n33\n98\n70", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "62", "task": "list", "response": "34\n78\n52\n91\n17\n63\n89\n25\n46\n77\n38\n19\n54\n21\n68\n92\n47\n76\n59", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "65", "task": "list", "response": "47\n19\n83\n56\n72\n34\n68\n91\n25\n49\n37\n61\n84\n52\n76\n93\n14\n28\n97\n58", "n_tokens": 60, "truncated": false}
+{"instr": "none", "value": "63", "task": "list", "response": "56\n89\n37\n42\n78\n16\n91\n64\n27\n85\n33\n54\n76\n98\n15\n67\n23\n80\n49", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "67", "task": "list", "response": "43\n89\n27\n76\n58\n32\n61\n90\n14\n77\n55\n38\n62\n94\n17\n83\n49\n71", "n_tokens": 54, "truncated": false}
+{"instr": "none", "value": "63", "task": "list", "response": "47\n82\n63\n19\n34\n78\n56\n91\n27\n48\n65\n12\n33\n89\n77\n54\n21\n96\n38", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "27", "task": "list", "response": "34\n71\n98\n29\n56\n83\n14\n65\n90\n41\n78\n29\n54\n87\n10\n63\n92\n45\n76\n19", "n_tokens": 60, "truncated": false}
+{"instr": "none", "value": "89", "task": "list", "response": "95\n27\n53\n78\n34\n61\n49\n82\n17\n90\n36\n73\n58\n41\n64\n87\n29\n71\n37\n52", "n_tokens": 60, "truncated": false}
+{"instr": "none", "value": "47", "task": "list", "response": "67\n92\n34\n78\n56\n89\n23\n54\n67\n31\n86\n12\n43\n75\n98\n61\n34\n56\n19", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "37", "task": "list", "response": "35\n72\n59\n61\n84\n93\n18\n47\n23\n67\n89\n35\n53\n76\n41\n98\n63\n22\n49", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "16", "task": "list", "response": "43\n78\n29\n65\n87\n34\n56\n91\n12\n73\n48\n67\n39\n54\n86\n21\n90\n64\n17", "n_tokens": 57, "truncated": false}
+{"instr": "none", "value": "72", "task": "list", "response": "37\n54\n91\n12\n68\n97\n33\n74\n59\n86\n21\n44\n17\n62\n98\n35\n79\n13\n47\n83", "n_tokens": 60, "truncated": false}
+{"instr": "none", "value": "21", "task": "list", "response": "57  \n23  \n84  \n61  \n49  \n98  \n36  \n72  \n14  \n53  \n67  \n89  \n31  \n45  \n92  \n17  \n78  \n26  \n63  \n09  \n58", "n_tokens": 83, "truncated": false}
+{"instr": "none", "value": "51", "task": "list", "response": "23\n78\n43\n97\n65\n10\n31\n84\n57\n29\n66\n16\n48\n33\n77\n99\n52\n88\n62\n91", "n_tokens": 60, "truncated": false}

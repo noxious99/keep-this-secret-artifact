@@ -1,0 +1,134 @@
+{
+ "criteria": {
+  "most": 0.05,
+  "fwer_p_not": 0.035,
+  "fwer_p_rej": 0.07
+ },
+ "scenarios": {
+  "sharp null, normal, correlation 0.5": {
+   "P not rejected": {
+    "fwer_B": 0.02025,
+    "fwer_B_count": 81,
+    "fwer_B_ci95": [
+     0.016113138690451098,
+     0.025106795871689392
+    ],
+    "most_models_error": 0.0015,
+    "most_models_count": 6,
+    "most_models_ci95": [
+     0.0005506662182675168,
+     0.0032619881899597467
+    ]
+   },
+   "P rejected": {
+    "fwer_B": 0.045,
+    "fwer_B_count": 180,
+    "fwer_B_ci95": [
+     0.038785225238933,
+     0.05188979474842502
+    ],
+    "most_models_error": 0.003,
+    "most_models_count": 12,
+    "most_models_ci95": [
+     0.001551074853856556,
+     0.00523452628594769
+    ]
+   },
+   "pass": true
+  },
+  "copying-like, independent across models": {
+   "P not rejected": {
+    "fwer_B": 0.065,
+    "fwer_B_count": 260,
+    "fwer_B_ci95": [
+     0.05755518087811717,
+     0.07308763926820762
+    ],
+    "most_models_error": 0.0,
+    "most_models_count": 0,
+    "most_models_ci95": [
+     0.0,
+     0.0009217947494830556
+    ]
+   },
+   "P rejected": {
+    "fwer_B": 0.1,
+    "fwer_B_count": 400,
+    "fwer_B_ci95": [
+     0.09087274771568082,
+     0.10971615171838671
+    ],
+    "most_models_error": 0.0,
+    "most_models_count": 0,
+    "most_models_ci95": [
+     0.0,
+     0.0009217947494830556
+    ]
+   },
+   "pass": false
+  },
+  "copying-like, same pairs in every model": {
+   "P not rejected": {
+    "fwer_B": 0.05575,
+    "fwer_B_count": 223,
+    "fwer_B_ci95": [
+     0.0488414383115946,
+     0.0633160688443676
+    ],
+    "most_models_error": 0.00225,
+    "most_models_count": 9,
+    "most_models_ci95": [
+     0.0010293433132986406,
+     0.004266885064660175
+    ]
+   },
+   "P rejected": {
+    "fwer_B": 0.08425,
+    "fwer_B_count": 337,
+    "fwer_B_ci95": [
+     0.07582324732083674,
+     0.09328968486310625
+    ],
+    "most_models_error": 0.00725,
+    "most_models_count": 29,
+    "most_models_ci95": [
+     0.004860658769457782,
+     0.01039573559497989
+    ]
+   },
+   "pass": false
+  },
+  "shared centred exponential (correlation 0.5)": {
+   "P not rejected": {
+    "fwer_B": 0.023,
+    "fwer_B_count": 92,
+    "fwer_B_ci95": [
+     0.018580552792123648,
+     0.028133728843612104
+    ],
+    "most_models_error": 0.001,
+    "most_models_count": 4,
+    "most_models_ci95": [
+     0.00027253142615528175,
+     0.002558400143375155
+    ]
+   },
+   "P rejected": {
+    "fwer_B": 0.044,
+    "fwer_B_count": 176,
+    "fwer_B_ci95": [
+     0.03785441670347668,
+     0.05082226588093404
+    ],
+    "most_models_error": 0.00275,
+    "most_models_count": 11,
+    "most_models_ci95": [
+     0.001373564650108403,
+     0.004915170093665527
+    ]
+   },
+   "pass": true
+  }
+ },
+ "all_pass": false
+}

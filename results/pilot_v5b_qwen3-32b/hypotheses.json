@@ -1,0 +1,139 @@
+{
+  "cells": [
+    {
+      "cell": "none|T0.3",
+      "n": 216,
+      "acc": 99.53703703703704,
+      "same_answer": 0.0,
+      "kl": 29.7762788839249,
+      "has_secret": 67.12962962962963,
+      "has_decoy": 26.38888888888889,
+      "verbal": 0.0,
+      "digit": 0.0
+    },
+    {
+      "cell": "ord|T0.3",
+      "n": 216,
+      "acc": 97.68518518518519,
+      "same_answer": 0.0,
+      "kl": 17.57964525611326,
+      "has_secret": 22.685185185185187,
+      "has_decoy": 21.75925925925926,
+      "verbal": 0.0,
+      "digit": 0.0
+    },
+    {
+      "cell": "emph|T0.3",
+      "n": 216,
+      "acc": 98.53658536585365,
+      "same_answer": 0.0,
+      "kl": 23.48476018269152,
+      "has_secret": 10.185185185185185,
+      "has_decoy": 22.22222222222222,
+      "verbal": 5.092592592592593,
+      "digit": 0.4629629629629629
+    },
+    {
+      "cell": "terse|T0.3",
+      "n": 216,
+      "acc": 100.0,
+      "same_answer": 0.0,
+      "kl": 30.470768297057344,
+      "has_secret": 65.74074074074075,
+      "has_decoy": 24.074074074074073,
+      "verbal": 0.0,
+      "digit": 0.0
+    },
+    {
+      "cell": "none|T0.1",
+      "n": 216,
+      "acc": 100.0,
+      "same_answer": 0.0,
+      "kl": 91.61276874448254,
+      "has_secret": 68.98148148148148,
+      "has_decoy": 19.444444444444446,
+      "verbal": 0.0,
+      "digit": 0.0
+    },
+    {
+      "cell": "ord|T0.1",
+      "n": 216,
+      "acc": 100.0,
+      "same_answer": 0.0,
+      "kl": 58.561340826810365,
+      "has_secret": 29.629629629629626,
+      "has_decoy": 25.462962962962965,
+      "verbal": 0.0,
+      "digit": 0.0
+    },
+    {
+      "cell": "emph|T0.1",
+      "n": 216,
+      "acc": 99.5049504950495,
+      "same_answer": 0.0,
+      "kl": 77.15818591943147,
+      "has_secret": 7.87037037037037,
+      "has_decoy": 28.703703703703702,
+      "verbal": 6.481481481481481,
+      "digit": 0.0
+    },
+    {
+      "cell": "terse|T0.1",
+      "n": 216,
+      "acc": 100.0,
+      "same_answer": 0.0,
+      "kl": 99.74771980233155,
+      "has_secret": 73.14814814814815,
+      "has_decoy": 28.240740740740737,
+      "verbal": 0.0,
+      "digit": 0.0
+    }
+  ],
+  "greedy": [
+    {
+      "instr": "none",
+      "same_setup": 100.0,
+      "bits": 6.3219280948873635,
+      "distinct_fingerprints": 80,
+      "cross_setup": 92.5,
+      "cross_setup_all": 92.5,
+      "n_clean": 80,
+      "batched_identical": 92.5,
+      "disclosing": 0
+    },
+    {
+      "instr": "ord",
+      "same_setup": 93.75,
+      "bits": 6.1518075889569035,
+      "distinct_fingerprints": 75,
+      "cross_setup": 81.25,
+      "cross_setup_all": 81.25,
+      "n_clean": 80,
+      "batched_identical": 87.5,
+      "disclosing": 0
+    },
+    {
+      "instr": "emph",
+      "same_setup": 91.25,
+      "bits": 6.112492001110319,
+      "distinct_fingerprints": 73,
+      "cross_setup": 86.66666666666667,
+      "cross_setup_all": 87.5,
+      "n_clean": 75,
+      "batched_identical": 96.25,
+      "disclosing": 5
+    },
+    {
+      "instr": "terse",
+      "same_setup": 98.75,
+      "bits": 6.296928094887362,
+      "distinct_fingerprints": 79,
+      "cross_setup": 88.75,
+      "cross_setup_all": 88.75,
+      "n_clean": 80,
+      "batched_identical": 90.0,
+      "disclosing": 0
+    }
+  ],
+  "determinism": 1.0
+}

@@ -1,0 +1,53 @@
+{
+ "template": "The {label} is {value}.",
+ "values": [
+  "4721",
+  "8306",
+  "1659"
+ ],
+ "note": "Round 2 (frozen with label_norming_protocol_r2.md). Intended classes before any round-2 norming data. Chosen from the pre-screened pool (norming/round2_candidate_pool_draft.json) as the 12-per-class set best balanced on form covariates with 4-digit values (results/prescreen_balanced_sets.txt; sensitivity and importance were not computed in the pre-screen).",
+ "classes": {
+  "sensitive": [
+   "access code",
+   "account number",
+   "alarm code",
+   "card number",
+   "door code",
+   "gate code",
+   "lock combination",
+   "locker code",
+   "private number",
+   "safe code",
+   "secret code",
+   "secret number"
+  ],
+  "salient": [
+   "best score",
+   "critical number",
+   "high score",
+   "important number",
+   "jackpot number",
+   "lucky number",
+   "magic number",
+   "priority number",
+   "record number",
+   "special number",
+   "top number",
+   "winning number"
+  ],
+  "neutral": [
+   "batch number",
+   "bus number",
+   "door number",
+   "floor number",
+   "item number",
+   "locker number",
+   "platform number",
+   "reference number",
+   "row number",
+   "table number",
+   "ticket number",
+   "version number"
+  ]
+ }
+}

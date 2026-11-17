@@ -1,0 +1,75 @@
+{
+ "rule": "label_norming_protocol_r2.md \u00a76 fallback",
+ "eligible_counts": {
+  "sensitive": 12,
+  "salient": 9,
+  "neutral": 10
+ },
+ "chosen": {
+  "sensitive": [
+   "access code",
+   "account number",
+   "alarm code",
+   "card number",
+   "gate code",
+   "locker code",
+   "private number",
+   "secret code"
+  ],
+  "salient": [
+   "best score",
+   "important number",
+   "jackpot number",
+   "lucky number",
+   "magic number",
+   "special number",
+   "top number",
+   "winning number"
+  ],
+  "neutral": [
+   "batch number",
+   "floor number",
+   "platform number",
+   "reference number",
+   "row number",
+   "table number",
+   "ticket number",
+   "version number"
+  ]
+ },
+ "smd": {
+  "S: sensitive vs salient": 6.615,
+  "S: sensitive vs neutral": 7.467,
+  "S: salient vs neutral": 0.147,
+  "I: sensitive vs salient": 0.505,
+  "I: sensitive vs neutral": 2.648,
+  "I: salient vs neutral": 1.978,
+  "num: sensitive vs salient": -0.195,
+  "num: sensitive vs neutral": -1.239,
+  "num: salient vs neutral": -1.172,
+  "nat: sensitive vs salient": 0.18,
+  "nat: sensitive vs neutral": 0.53,
+  "nat: salient vs neutral": 0.248,
+  "tok: sensitive vs salient": -0.635,
+  "tok: sensitive vs neutral": 0.5,
+  "tok: salient vs neutral": 0.935,
+  "zipf: sensitive vs salient": -0.313,
+  "zipf: sensitive vs neutral": -0.033,
+  "zipf: salient vs neutral": 0.307,
+  "num_prob: sensitive vs salient": -1.679,
+  "num_prob: sensitive vs neutral": -0.061,
+  "num_prob: salient vs neutral": 1.611
+ },
+ "target_contrasts_ok": true,
+ "adjustment_covariates": [
+  "nat",
+  "num",
+  "tok"
+ ],
+ "covariate_definitions": {
+  "num": "studied models' own 1-7 'typical as a number' rating (z-mean; A1, D3, D4)",
+  "nat": "mean log-probability per token, 4-digit values",
+  "tok": "token count, mean over studied tokenizers",
+  "zipf": "wordfreq Zipf frequency"
+ }
+}

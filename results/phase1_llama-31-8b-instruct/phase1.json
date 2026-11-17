@@ -1,0 +1,86 @@
+{
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "history": {
+    "source": "hf_official",
+    "main": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "at_window_start": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "commits_after_window_start": [],
+    "weights_unchanged": true,
+    "tokenizer_unchanged": true,
+    "status": "verified by history: weights and tokenizer unchanged since the window start"
+  },
+  "verify": {
+    "stored_run": "pilot_v6_llama-31-8b-instruct",
+    "n": 50,
+    "decode_all_ok": true,
+    "abs_dlp_median": 0.0,
+    "abs_dlp_p95": 0.0,
+    "abs_dlp_max": 0.0,
+    "abs_dllr_median": 0.0,
+    "abs_dllr_max": 0.0,
+    "status": "consistent by reproduction",
+    "seconds": 28.2
+  },
+  "throughput": {
+    "sampled_2digit": {
+      "n": 48,
+      "seconds": 16.5,
+      "answers_per_hour": 10504,
+      "mean_new_tokens": 40.0,
+      "truncated": 0
+    },
+    "sampled_4digit": {
+      "n": 48,
+      "seconds": 28.1,
+      "answers_per_hour": 6150,
+      "mean_new_tokens": 60.6,
+      "truncated": 0
+    },
+    "greedy_2digit": {
+      "n": 16,
+      "seconds": 6.4,
+      "answers_per_hour": 8985,
+      "mean_new_tokens": 40.0,
+      "truncated": 0
+    },
+    "4digit_task_check": {
+      "share_with_10plus_numbers": 1.0,
+      "share_stating_value": 0.020833333333333332
+    },
+    "score_single": {
+      "passes": 32,
+      "seconds": 9.7,
+      "passes_per_hour": 11905
+    },
+    "score_batched_ceiling": {
+      "passes": 80,
+      "seconds": 12.1,
+      "passes_per_hour": 23853,
+      "max_abs_diff_vs_single": 0.055194478113662626
+    }
+  },
+  "lora": {
+    "error": "ImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported"
+  },
+  "projection": {
+    "arm_a_generation_h": 1.06,
+    "arm_b_generation_h": 2.6,
+    "ceiling_scoring_h": 0.54,
+    "decoder_training_h": NaN,
+    "total_h": 4.2
+  },
+  "meta": {
+    "source": "hf_official",
+    "load_from": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision_loaded": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "gpu": "Tesla T4",
+    "n_gpus": 2,
+    "torch": "2.11.0+cu128",
+    "transformers": "5.21.0",
+    "bitsandbytes": "0.50.2",
+    "peft": "0.20.0",
+    "transformers_of_stored_run": "5.21.0",
+    "seed": 20261031,
+    "elapsed_h": 0.08
+  }
+}

@@ -1,0 +1,8 @@
+# Analysis (CPU). Versions used for the paper's analyses.
+numpy==2.2.6
+scipy==1.18.1
+pandas==2.2.3
+matplotlib==3.11.2
+wordfreq          # norming covariates only
+# The notebooks (GPU, Kaggle) install their own pinned stack (torch, transformers, bitsandbytes, peft); see each
+# notebook's first cell and the library versions recorded in results/*/metadata.json.

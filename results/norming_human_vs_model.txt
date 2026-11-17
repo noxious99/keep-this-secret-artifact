@@ -1,0 +1,31 @@
+Spearman across the 36 labels (authors = mean of 3):
+  naturalness: authors vs model probability +0.41 | authors vs model self-rating +0.47 | model probability vs self-rating +0.37
+  number-typical: authors vs model probability (numeric association) -0.16 | authors vs model self-rating +0.65
+Class means:
+           auth_nat  model_self_nat  model_prob_nat  auth_num  model_self_num  model_prob_num
+cls                                                                                          
+neutral        6.81            0.48            0.48      6.97            0.48            0.09
+salient        5.08           -0.02            0.24      5.03            0.11            0.54
+sensitive      5.33           -0.46           -0.72      5.53           -0.59           -0.63
+Standardized class differences (pooled SD), sensitive vs neutral / salient vs neutral:
+  auth_nat        sens-neut -4.15 | sal-neut -2.39 | sens-sal +0.32
+  model_self_nat  sens-neut -1.80 | sal-neut -1.32 | sens-sal -0.84
+  model_prob_nat  sens-neut -1.89 | sal-neut -0.35 | sens-sal -1.34
+  auth_num        sens-neut -1.60 | sal-neut -3.18 | sens-sal +0.46
+  model_self_num  sens-neut -1.26 | sal-neut -1.44 | sens-sal -0.79
+  model_prob_num  sens-neut -0.82 | sal-neut +1.12 | sens-sal -1.29
+Sensitive labels, authors' naturalness (1-7) vs model probability (z):
+                     auth_nat  model_prob_nat  auth_num
+label                                                  
+private number           4.67           -0.58      5.67
+secret                   5.00           -1.55      4.67
+secret code              5.00            0.63      5.33
+PIN                      5.00           -1.70      7.00
+confidential number      5.00           -1.06      4.00
+secret key               5.00           -0.35      4.33
+password                 5.33           -1.77      3.00
+access code              5.67           -0.21      6.33
+verification code        5.67           -0.73      6.33
+account number           5.67           -0.30      7.00
+passcode                 6.00           -0.48      6.33
+security code            6.00           -0.53      6.33

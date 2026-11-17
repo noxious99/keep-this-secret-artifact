@@ -1,0 +1,13 @@
+{
+  "template": "The {label} is {value}.",
+  "values": ["47", "83", "16"],
+  "note": "Intended classes before any norming data. v6 used 'secret' (sensitive) and 'reference number' (neutral); both are included.",
+  "classes": {
+    "sensitive": ["secret", "secret code", "password", "PIN", "passcode", "access code", "security code", "confidential number",
+                  "private number", "verification code", "account number", "secret key"],
+    "salient":   ["important number", "crucial number", "critical number", "priority number", "key number", "main number",
+                  "central number", "essential number", "special number", "featured number", "highlighted number", "target number"],
+    "neutral":   ["reference number", "ticket number", "order number", "room number", "item number", "page number",
+                  "batch number", "row number", "table number", "case number", "line number", "version number"]
+  }
+}

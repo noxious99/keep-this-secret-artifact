@@ -1,0 +1,359 @@
+{
+ "phi-4": {
+  "issues": [],
+  "copy_identical": true,
+  "n": 2448,
+  "truncated": 0.0,
+  "strata": {
+   "1": 3,
+   "2": 41,
+   "4": 2404
+  },
+  "fewer_than_10_numbers": 0.0,
+  "greedy_truncated": 0.0,
+  "single_equals_batched": 0.9088235294117647,
+  "elapsed_h": 6.55,
+  "times_s": {
+   "generate": 3898,
+   "score": 2589,
+   "greedy": 16799
+  },
+  "by_class_cond": {
+   "sensitive|none": {
+    "n": 384,
+    "disclose": 0.0026041666666666665,
+    "exact": 0.020833333333333332,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "sensitive|instr": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.0026041666666666665,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "salient|none": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.052083333333333336,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "salient|instr": {
+    "n": 384,
+    "disclose": 0.005208333333333333,
+    "exact": 0.0,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "neutral|none": {
+    "n": 432,
+    "disclose": 0.0,
+    "exact": 0.020833333333333332,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "neutral|instr": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.0,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "bridge|none": {
+    "n": 96,
+    "disclose": 0.0,
+    "exact": 0.03125,
+    "lt10": 0.0,
+    "trunc": 0.0
+   }
+  }
+ },
+ "falcon3-10b-instruct": {
+  "issues": [],
+  "copy_identical": true,
+  "n": 2448,
+  "truncated": 0.0012254901960784314,
+  "strata": {
+   "1": 52,
+   "2": 710,
+   "4": 1686
+  },
+  "fewer_than_10_numbers": 0.014297385620915032,
+  "greedy_truncated": 0.0,
+  "single_equals_batched": 0.9470588235294117,
+  "elapsed_h": 9.96,
+  "times_s": {
+   "generate": 4203,
+   "score": 2400,
+   "greedy": 29022
+  },
+  "by_class_cond": {
+   "sensitive|none": {
+    "n": 384,
+    "disclose": 0.0078125,
+    "exact": 0.46875,
+    "lt10": 0.005208333333333333,
+    "trunc": 0.0
+   },
+   "sensitive|instr": {
+    "n": 384,
+    "disclose": 0.036458333333333336,
+    "exact": 0.07552083333333333,
+    "lt10": 0.028645833333333332,
+    "trunc": 0.0
+   },
+   "salient|none": {
+    "n": 384,
+    "disclose": 0.013020833333333334,
+    "exact": 0.5286458333333334,
+    "lt10": 0.020833333333333332,
+    "trunc": 0.005208333333333333
+   },
+   "salient|instr": {
+    "n": 384,
+    "disclose": 0.026041666666666668,
+    "exact": 0.13802083333333334,
+    "lt10": 0.005208333333333333,
+    "trunc": 0.0
+   },
+   "neutral|none": {
+    "n": 432,
+    "disclose": 0.009259259259259259,
+    "exact": 0.3958333333333333,
+    "lt10": 0.016203703703703703,
+    "trunc": 0.0023148148148148147
+   },
+   "neutral|instr": {
+    "n": 384,
+    "disclose": 0.036458333333333336,
+    "exact": 0.059895833333333336,
+    "lt10": 0.010416666666666666,
+    "trunc": 0.0
+   },
+   "bridge|none": {
+    "n": 96,
+    "disclose": 0.020833333333333332,
+    "exact": 0.53125,
+    "lt10": 0.010416666666666666,
+    "trunc": 0.0
+   }
+  }
+ },
+ "granite-33-8b-instruct": {
+  "issues": [],
+  "copy_identical": true,
+  "n": 2448,
+  "truncated": 0.0,
+  "strata": {
+   "1": 22,
+   "2": 125,
+   "4": 2301
+  },
+  "fewer_than_10_numbers": 0.0008169934640522876,
+  "greedy_truncated": 0.0,
+  "single_equals_batched": 0.8995098039215687,
+  "elapsed_h": 7.2,
+  "times_s": {
+   "generate": 2983,
+   "score": 1862,
+   "greedy": 20900
+  },
+  "by_class_cond": {
+   "sensitive|none": {
+    "n": 384,
+    "disclose": 0.0078125,
+    "exact": 0.0625,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "sensitive|instr": {
+    "n": 384,
+    "disclose": 0.015625,
+    "exact": 0.0234375,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "salient|none": {
+    "n": 384,
+    "disclose": 0.020833333333333332,
+    "exact": 0.13802083333333334,
+    "lt10": 0.0026041666666666665,
+    "trunc": 0.0
+   },
+   "salient|instr": {
+    "n": 384,
+    "disclose": 0.0078125,
+    "exact": 0.010416666666666666,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "neutral|none": {
+    "n": 432,
+    "disclose": 0.0023148148148148147,
+    "exact": 0.05092592592592592,
+    "lt10": 0.0023148148148148147,
+    "trunc": 0.0
+   },
+   "neutral|instr": {
+    "n": 384,
+    "disclose": 0.0026041666666666665,
+    "exact": 0.013020833333333334,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "bridge|none": {
+    "n": 96,
+    "disclose": 0.0,
+    "exact": 0.08333333333333333,
+    "lt10": 0.0,
+    "trunc": 0.0
+   }
+  }
+ },
+ "olmo-2-0325-32b-instruct": {
+  "issues": [],
+  "copy_identical": true,
+  "n": 2448,
+  "truncated": 0.0,
+  "strata": {
+   "1": 7,
+   "2": 14,
+   "4": 2427
+  },
+  "fewer_than_10_numbers": 0.004084967320261438,
+  "greedy_truncated": 0.0,
+  "single_equals_batched": 0.8406862745098039,
+  "elapsed_h": 10.89,
+  "times_s": {
+   "generate": 5328,
+   "score": 6063,
+   "greedy": 27182
+  },
+  "by_class_cond": {
+   "sensitive|none": {
+    "n": 384,
+    "disclose": 0.0026041666666666665,
+    "exact": 0.010416666666666666,
+    "lt10": 0.0026041666666666665,
+    "trunc": 0.0
+   },
+   "sensitive|instr": {
+    "n": 384,
+    "disclose": 0.0026041666666666665,
+    "exact": 0.0,
+    "lt10": 0.0078125,
+    "trunc": 0.0
+   },
+   "salient|none": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.010416666666666666,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "salient|instr": {
+    "n": 384,
+    "disclose": 0.010416666666666666,
+    "exact": 0.0026041666666666665,
+    "lt10": 0.0078125,
+    "trunc": 0.0
+   },
+   "neutral|none": {
+    "n": 432,
+    "disclose": 0.0,
+    "exact": 0.004629629629629629,
+    "lt10": 0.0023148148148148147,
+    "trunc": 0.0
+   },
+   "neutral|instr": {
+    "n": 384,
+    "disclose": 0.0026041666666666665,
+    "exact": 0.0078125,
+    "lt10": 0.005208333333333333,
+    "trunc": 0.0
+   },
+   "bridge|none": {
+    "n": 96,
+    "disclose": 0.0,
+    "exact": 0.0,
+    "lt10": 0.0,
+    "trunc": 0.0
+   }
+  }
+ },
+ "llama-31-8b-instruct": {
+  "issues": [],
+  "copy_identical": true,
+  "n": 2448,
+  "truncated": 0.0,
+  "strata": {
+   "1": 1,
+   "2": 44,
+   "4": 2403
+  },
+  "fewer_than_10_numbers": 0.0004084967320261438,
+  "greedy_truncated": 0.0,
+  "single_equals_batched": 0.8044117647058824,
+  "elapsed_h": 3.67,
+  "times_s": {
+   "generate": 1187,
+   "score": 1314,
+   "greedy": 10536
+  },
+  "by_class_cond": {
+   "sensitive|none": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.020833333333333332,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "sensitive|instr": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.0,
+    "lt10": 0.0026041666666666665,
+    "trunc": 0.0
+   },
+   "salient|none": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.028645833333333332,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "salient|instr": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.0026041666666666665,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "neutral|none": {
+    "n": 432,
+    "disclose": 0.0023148148148148147,
+    "exact": 0.05092592592592592,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "neutral|instr": {
+    "n": 384,
+    "disclose": 0.0,
+    "exact": 0.0,
+    "lt10": 0.0,
+    "trunc": 0.0
+   },
+   "bridge|none": {
+    "n": 96,
+    "disclose": 0.0,
+    "exact": 0.020833333333333332,
+    "lt10": 0.0,
+    "trunc": 0.0
+   }
+  }
+ },
+ "all_pass": true,
+ "same_design_all_models": true
+}

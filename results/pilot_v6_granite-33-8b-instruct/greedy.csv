@@ -1,0 +1,6 @@
+instr,replay,naive_first,distinct,n_clean,batched_identical,disclosing
+none,78.75,0.0,72,80,88.75,0
+ref,58.08333333333333,0.0,55,80,87.5,0
+ord,65.83333333333334,0.0,64,80,85.0,0
+emph,73.46491228070174,0.0,68,76,87.5,4
+terse,79.375,0.0,69,80,91.25,0
